@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link type="text/css" rel="stylesheet"href="tictac.css">
+</head>
+<body onload="startgame()">
+    <h1 class="text" textalign="center"><b>Tic Tac Toe!!!</b></h1>
+    <div id="message" class="text1">Result</div>
+    <div>
+    <table class="shift">
+        <tr>
+           <td id="c1" class="box" onclick="nextmove(this);"></td>
+           <td id="c2" class="box" onclick="nextmove(this);"></td>
+           <td id="c3" class="box" onclick="nextmove(this);"></td>
+        </tr> 
+        <tr>
+            <td id="c4" class="box" onclick="nextmove(this);"></td>
+            <td id="c5" class="box" onclick="nextmove(this);"></td>
+            <td id="c6" class="box" onclick="nextmove(this);"></td>
+         </tr> 
+         <tr>
+            <td id="c7" class="box" onclick="nextmove(this);"></td>
+            <td id="c8" class="box" onclick="nextmove(this);"></td>
+            <td id="c9" class="box" onclick="nextmove(this);"></td>
+         </tr> 
+    </table>
+   </div>
+    <button type="button" onclick="startgame()" class="ros">Start New game</button> 
+    <script src=tictoe.js></script>
+
+    
+</body>
+</html>
